@@ -1,0 +1,16 @@
+{
+  "name": "sujit",
+  "version": "1.0.0",
+  "description": "Start Small application using nodeJS",
+  "main": "1.0.1",
+  "dependencies": {
+    "express": "^4.14.0",
+    "faker": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "SujitKumbhar",
+  "license": "ISC"
+}
