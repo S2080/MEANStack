@@ -24,6 +24,13 @@
                                 <th>Email</th>
                                 <th>Number</th>
                             </tr>
+                            <tr ng-repeat="contact in contactList">
+                                    <td>{{contact.name}} </td>
+                                    <td>{{contact.email}} </td>
+                                    <td>{{contact.contactNumber}}</td>
+                                    <td><input type="button" value="Add"></td>
+                                    <td><input type="button" value="Cancel"></td>
+                            </tr>
                     </thead>
                 </table>
         </div>
